@@ -352,7 +352,7 @@
             display: grid;
             grid-template-columns: minmax(200px, 1fr);
             gap: 30px;
-            width: 400px;
+            width: 300px;
             }
             .popup-body {
                 padding: 20px;
