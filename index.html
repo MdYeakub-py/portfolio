@@ -59,7 +59,7 @@
 			</div>
 		</div>
 		<!-- /MODALBOX -->
-<!-- nothing-->
+     <!-- nothing-->
 		<!-- TOPBAR -->
 		<div class="iknow_tm_topbar" data-position="absolute">
 			<div class="container">
@@ -594,7 +594,7 @@
 										<a class="iknow_tm_full_link" href="https://drive.google.com/file/d/1wW-eSNwTebZo6RxTlIxGVQGPipw2CuJL/view?usp=sharing" target="_blank" rel="noopener noreferrer"></a>
 									</div>
 								</li>
-<!--                            <li class="Dataengineer">
+                                        <!--                            <li class="Dataengineer">
 									<div class="list_inner">
 										<div class="image">
 											<img src="img/thumbs/1-1.jpg" alt="" />
@@ -732,7 +732,7 @@
 										<a class="iknow_tm_full_link" href="https://drive.google.com/file/d/1jGG60tcx6hFBFd-VrE_rmcAgNXWeX59Y/view?usp=sharing" target="_blank" rel="noopener noreferrer"></a>
 									</div>
 								</li>
-<!--                            <li class="googlecloud">
+											<!--                            <li class="googlecloud">
 									<div class="list_inner">
 										<div class="image">
 											<img src="img/thumbs/1-1.jpg" alt="" />
@@ -749,323 +749,396 @@
 								</li>-->
 								
 							</ul>
+
 						</div>
-					</div>
+                    </div>
 				</div>
 
-				<!-- Project -->
+                <!-- Project -->
 				<div id="project" class="iknow_tm_main_section">
 					<div class="iknow_tm_portfolio">
+						<div class="portfolio-grid">
+							<!-- Project 1 -->
+							<div class="portfolio-item" onclick="openPopup('project1')">
+								<div class="item-image">
+									<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Analytics">
+								</div>
+								<div class="item-content">
+									<span class="item-tag">Data Analytics</span>
+									<h3>AdventureWorks Internet Sales Analytics Dashboard</h3>
+									<h5>Tools: Power BI, DAX, Power Query</h5>
+									<p>Designed and developed an interactive Power BI dashboard using the AdventureWorks dataset to analyze internet sales performance.</p>
+								</div>
+							</div>
+								
+							<!-- Project 2 -->
+							<div class="portfolio-item" onclick="openPopup('project2')">
+								<div class="item-image">
+									<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Analytics">
+								</div>
+								<div class="item-content">
+									<span class="item-tag">Data Analytics</span>
+									<h3>Flipkart E-commerce Data Analysis</h3>
+									<h5>Tools: Excel, MySQL, Power BI</h5>
+									<p>Conducted end-to-end analysis of Flipkart product data. Cleaned and structured datasets in Excel, performed complex SQL queries for trend analysis, and built interactive Power BI dashboards to visualize category-wise performance, pricing strategies, and customer ratings.</p>
+								</div>
+							</div>
+								
+							<!-- Project 3 -->
+							<div class="portfolio-item" onclick="openPopup('project3')">
+								<div class="item-image">
+									<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Analytics">
+								</div>
+								<div class="item-content">
+									<span class="item-tag">Data Analytics</span>
+									<h3>Swiggy Power BI Dashboard – APM Case Study</h3>
+									<h5>Tools: Power BI, Excel</h5>
+									<p>Swiggy Power BI Dashboard – Analyzed Swiggy’s sales and customer behavior using Power BI, uncovering key insights on top cuisines, city performance, and improving forecasting accuracy by 30%.</p>
+								</div>
+							</div>
+							
+							<!-- Project 4 -->
+							<div class="portfolio-item" onclick="openPopup('project4')">
+								<div class="item-image">
+									<img src="img\project\iFlix Movie Streaming Analysis\ilovepdf_pages-to-jpg\iFlix Movie Streaming Analysis_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Analytics">
+								</div>
+								<div class="item-content">
+									<span class="item-tag">Data Analytics</span>
+									<h3>iFlix Movie Streaming Analysis</h3>
+									<h5>Tools: Power BI, Excel, Power Query</h5>
+									<p>This project presents an in-depth analysis of iFlix movie streaming data, focusing on user behavior, content insights, and engagement patterns. The interactive Power BI dashboard was designed to uncover trends across countries, platforms, demographics, and psychographics, enabling data-driven insights for business decisions.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
+					<!-- Popup for Project 1 -->
 						
-				
-				<div class="portfolio-grid">
-						<!-- Project 1 -->
-						<div class="portfolio-item" onclick="openPopup('project1')">
-							<div class="item-image">
-								<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline">
+					<div class="popup-overlay" id="project1-popup">
+						<div class="popup-content">
+							<div class="popup-header">
+								<h2>AdventureWorks Internet Sales Analytics Dashboard</h2>
+								<button class="close-btn" onclick="closePopup('project1-popup')">×</button>
 							</div>
-							<div class="item-content">
-								<span class="item-tag">Data Analytics</span>
-								<h3>AdventureWorks Internet Sales Analytics Dashboard</h3>
-								<h5>Tools: Power BI, DAX, Power Query</h5>
-								<p>Designed and developed an interactive Power BI dashboard using the AdventureWorks dataset to analyze internet sales performance.</p>
+							<div class="popup-body">
+								<div class="carousel-container">
+									<div class="carousel-slides">
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data  1">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 2">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0003.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 3">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0004.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 4">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0005.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 5">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0006.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 6">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0007.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 7">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0008.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 8">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0009.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 9">
+										</div>
+									</div>
+									<button class="carousel-btn prev" onclick="changeSlide('project1',-1)">❮</button>
+									<button class="carousel-btn next" onclick="changeSlide('project1',1)">❯</button>
+									<div class="carousel-indicators">
+										<span class="carousel-indicator active" onclick="goToSlide('project1',0)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project1',1)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project1',2)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project1',3)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project1',4)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project1',5)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project1',6)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project1',7)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project1',8)"></span>
+									</div>
+								</div>
+								<div class="popup-text">
+									<p>Designed and developed an interactive Power BI dashboard using the AdventureWorks dataset to analyze internet sales performance.</p>
+									<p>The report covers key areas such as sales trends (YoY, MoM, YTD), customer segmentation, product profitability, regional performance, returns analysis, and cohort-based retention.
+										Built with a clean data model (star schema) and advanced DAX measures to extract actionable business insights and visualize end-to-end sales analytics.</p>
+								</div>
+								<ul class="details-list">
+									<li>
+										<span class="label">Client</span>
+										<span></span>
+									</li>
+									<li>
+										<span class="label">Category</span>
+										<span>Data Analytics</span>
+									</li>
+									<li>
+										<span class="label">Date</span>
+										<span>August 03, 2025</span>
+									</li>
+									<li>
+										<span class="label">GitHub Source</span>
+										<a href="https://github.com/MdYeakub-py/AdventureWorks-Internet-Sales-Analytics.git" class="github-btn" target="_blank">View on GitHub</a>
+									</li>
+									<li>
+										<span class="label">Share</span>
+										<div class="social-links">
+											<a href="#"><span>f</span></a>
+											<a href="#"><span>t</span></a>
+											<a href="#"><span>in</span></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="popup-footer">
+								<button class="cancel-btn" onclick="closePopup('project1-popup')">Cancel</button>
 							</div>
 						</div>
+					</div>							
+
+					<!-- Popup for Project 2 -->
 						
-						<!-- Project 2 -->
-						<div class="portfolio-item" onclick="openPopup('project2')">
-							<div class="item-image">
-								<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Visualization">
+					<div class="popup-overlay" id="project2-popup">
+						<div class="popup-content">
+							<div class="popup-header">
+								<h2>ANALYSIS OF FLIPKART E-COMMERCE DATA</h2>
+								<button class="close-btn" onclick="closePopup('project2-popup')">×</button>
 							</div>
-							<div class="item-content">
-								<span class="item-tag">Data Analytics</span>
-								<h3>Flipkart E-commerce Data Analysis</h3>
-								<h5>Tools: Excel, MySQL, Power BI</h5>
-								<p>Conducted end-to-end analysis of Flipkart product data. Cleaned and structured datasets in Excel, performed complex SQL queries for trend analysis, and built interactive Power BI dashboards to visualize category-wise performance, pricing strategies, and customer ratings.</p>
+							<div class="popup-body">
+								<div class="carousel-container">
+									<div class="carousel-slides">
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data  1">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 2">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0003.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 3">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0004.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 4">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0005.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 5">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0006.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 6">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0007.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 7">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0008.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 8">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0009.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 9">
+										</div>
+
+
+									</div>
+									<button class="carousel-btn prev" onclick="changeSlide('project2',-1)">❮</button>
+									<button class="carousel-btn next" onclick="changeSlide('project2',1)">❯</button>
+									<div class="carousel-indicators">
+										<span class="carousel-indicator active" onclick="goToSlide('project2',0)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project2',1)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project2',2)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project2',3)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project2',4)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project2',5)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project2',6)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project2',7)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project2',8)"></span>
+									</div>
+								</div>
+								<div class="popup-text">
+									<p>In today’s competitive business environment, data-driven decision-making is crucial for success. This project focuses on building an advanced Power BI dashboard to provide insights into key business operations, including orders, products, customers, forecasting, and performance tracking. The dashboard aims to help stakeholders analyze trends, track key performance indicators (KPIs), and make informed business decisions efficiently</p>
+								</div>
+								<ul class="details-list">
+									<li>
+										<span class="label">Client</span>
+										<span></span>
+									</li>
+									<li>
+										<span class="label">Category</span>
+										<span>Data Analytics</span>
+									</li>
+									<li>
+										<span class="label">Date</span>
+										<span>August 03, 2025</span>
+									</li>
+									<li>
+										<span class="label">GitHub Source</span>
+										<a href="https://github.com/MdYeakub-py/ANALYSIS-OF-FLIPKART-E-COMMERCE-DATA.git" class="github-btn" target="_blank">View on GitHub</a>
+									</li>
+									<li>
+										<span class="label">Share</span>
+										<div class="social-links">
+											<a href="#"><span>f</span></a>
+											<a href="#"><span>t</span></a>
+											<a href="#"><span>in</span></a>
+										</div>
+									</li>
+								</ul>
 							</div>
-						</div>
+							<div class="popup-footer">
+								<button class="cancel-btn" onclick="closePopup('project2-popup')">Cancel</button>
+							</div>
+						</div>							
+					</div>
+
+
+					<!-- Popup for Project 3 -->
 						
-						<!-- Project 3 -->
-						<div class="portfolio-item" onclick="openPopup('project3')">
-							<div class="item-image">
-								<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Machine Learning">
+					<div class="popup-overlay" id="project3-popup">
+						<div class="popup-content">
+							<div class="popup-header">
+								<h2>Swiggy Power BI Dashboard – APM Case Study</h2>
+								<button class="close-btn" onclick="closePopup('project3-popup')">×</button>
 							</div>
-							<div class="item-content">
-								<span class="item-tag">Data Analytics</span>
-								<h3>Swiggy Power BI Dashboard – APM Case Study</h3>
-								<h5>Tools: Power BI, Excel</h5>
-								<p>Swiggy Power BI Dashboard – Analyzed Swiggy’s sales and customer behavior using Power BI, uncovering key insights on top cuisines, city performance, and improving forecasting accuracy by 30%.</p>
+							<div class="popup-body">
+								<div class="carousel-container">
+									<div class="carousel-slides">
+										<div class="carousel-slide">
+											<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data  1">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 2">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0003.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 3">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0004.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 4">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0005.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 5">
+										</div>
+									</div>
+									<button class="carousel-btn prev" onclick="changeSlide('project3',-1)">❮</button>
+									<button class="carousel-btn next" onclick="changeSlide('project3',1)">❯</button>
+									<div class="carousel-indicators">
+										<span class="carousel-indicator active" onclick="goToSlide('project3',0)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project3',1)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project3',2)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project3',3)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project3',4)"></span>
+									</div>
+								</div>
+								<div class="popup-text">
+									<p>Created an interactive Power BI dashboard to analyze Swiggy’s sales, customer behavior, and city performance. Identified top cuisines, high-performing cities, and customer churn trends, helping improve business decisions and forecasting accuracy by 30%.</p>
+								</div>
+								<ul class="details-list">
+									<li>
+										<span class="label">Client</span>
+										<span></span>
+									</li>
+									<li>
+										<span class="label">Category</span>
+										<span>Data Analytics</span>
+									</li>
+									<li>
+										<span class="label">Date</span>
+										<span>August 03, 2025</span>
+									</li>
+									<li>
+										<span class="label">GitHub Source</span>
+										<a href="https://github.com/MdYeakub-py/Swiggy-power-bi-dashboard-project.git" class="github-btn" target="_blank">View on GitHub</a>
+									</li>
+									<li>
+										<span class="label">Share</span>
+										<div class="social-links">
+											<a href="#"><span>f</span></a>
+											<a href="#"><span>t</span></a>
+											<a href="#"><span>in</span></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="popup-footer">
+								<button class="cancel-btn" onclick="closePopup('project3-popup')">Cancel</button>
+							</div>
+						</div>
+					</div>							
+
+
+					<!-- Popup for Project 4 -->
+					<div class="popup-overlay" id="project4-popup">
+						<div class="popup-content">
+							<div class="popup-header">
+								<h2>iFlix Movie Streaming Analysis</h2>
+								<button class="close-btn" onclick="closePopup('project4-popup')">×</button>
+							</div>
+							<div class="popup-body">
+								<div class="carousel-container">
+									<div class="carousel-slides">
+										<div class="carousel-slide">
+											<img src="img\project\iFlix Movie Streaming Analysis\ilovepdf_pages-to-jpg\iFlix Movie Streaming Analysis_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data  1">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\iFlix Movie Streaming Analysis\ilovepdf_pages-to-jpg\iFlix Movie Streaming Analysis_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 2">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\iFlix Movie Streaming Analysis\ilovepdf_pages-to-jpg\iFlix Movie Streaming Analysis_page-0003.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 3">
+										</div>
+										<div class="carousel-slide">
+											<img src="img\project\iFlix Movie Streaming Analysis\ilovepdf_pages-to-jpg\iFlix Movie Streaming Analysis_page-0004.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 4">
+										</div>
+									</div>
+									<button class="carousel-btn prev" onclick="changeSlide('project4',-1)">❮</button>
+									<button class="carousel-btn next" onclick="changeSlide('project4',1)">❯</button>
+									<div class="carousel-indicators">
+										<span class="carousel-indicator active" onclick="goToSlide('project4',0)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project4',1)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project4',2)"></span>
+										<span class="carousel-indicator" onclick="goToSlide('project4',3)"></span>
+									</div>
+								</div>
+								<div class="popup-text">
+									<p>This project presents an in-depth analysis of iFlix movie streaming data, focusing on user behavior, content insights, and engagement patterns. The interactive Power BI dashboard was designed to uncover trends across countries, platforms, demographics, and psychographics, enabling data-driven insights for business decisions.</p>
+								</div>
+								<ul class="details-list">
+									<li>
+										<span class="label">Client</span>
+										<span></span>
+									</li>
+									<li>
+										<span class="label">Category</span>
+										<span>Data Analytics</span>
+									</li>
+									<li>
+										<span class="label">Date</span>
+										<span>August 03, 2025</span>
+									</li>
+									<li>
+										<span class="label">GitHub Source</span>
+										<a href="https://github.com/MdYeakub-py/iFlix-Movie-Streaming-Analysis-Power-BI-Dashboard.git" class="github-btn" target="_blank">View on GitHub</a>
+									</li>
+									<li>
+										<span class="label">Share</span>
+										<div class="social-links">
+											<a href="#"><span>f</span></a>
+											<a href="#"><span>t</span></a>
+											<a href="#"><span>in</span></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="popup-footer">
+								<button class="cancel-btn" onclick="closePopup('project4-popup')">Cancel</button>
 							</div>
 						</div>
 					</div>
-				</div>
-				
-				<!-- Popup for Project 1 -->
-				
-				<div class="popup-overlay" id="project1-popup">
-					<div class="popup-content">
-						<div class="popup-header">
-							<h2>AdventureWorks Internet Sales Analytics Dashboard</h2>
-							<button class="close-btn" onclick="closePopup('project1-popup')">×</button>
-						</div>
-						<div class="popup-body">
-							<div class="carousel-container">
-                    			<div class="carousel-slides">
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data  1">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 2">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0003.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 3">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0004.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 4">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0005.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 5">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0006.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 6">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0007.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 7">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0008.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 8">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Adventure_project\AdventureWorks Internet Sales Analytics_page-0009.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 9">
-									</div>
-
-
-								</div>
-								<button class="carousel-btn prev" onclick="changeSlide('project1',-1)">❮</button>
-								<button class="carousel-btn next" onclick="changeSlide('project1',1)">❯</button>
-								<div class="carousel-indicators">
-									<span class="carousel-indicator active" onclick="goToSlide('project1',0)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project1',1)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project1',2)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project1',3)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project1',4)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project1',5)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project1',6)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project1',7)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project1',8)"></span>
-								</div>
-               				</div>
-							<div class="popup-text">
-								<p>Designed and developed an interactive Power BI dashboard using the AdventureWorks dataset to analyze internet sales performance.</p>
-								<p>The report covers key areas such as sales trends (YoY, MoM, YTD), customer segmentation, product profitability, regional performance, returns analysis, and cohort-based retention.
-Built with a clean data model (star schema) and advanced DAX measures to extract actionable business insights and visualize end-to-end sales analytics.</p>
-							</div>
-							<ul class="details-list">
-								<li>
-									<span class="label">Client</span>
-									<span></span>
-								</li>
-								<li>
-									<span class="label">Category</span>
-									<span>Data Analytics</span>
-								</li>
-								<li>
-									<span class="label">Date</span>
-									<span>August 03, 2025</span>
-								</li>
-								<li>
-									<span class="label">GitHub Source</span>
-									<a href="https://github.com/MdYeakub-py/AdventureWorks-Internet-Sales-Analytics.git" class="github-btn" target="_blank">View on GitHub</a>
-								</li>
-								<li>
-									<span class="label">Share</span>
-									<div class="social-links">
-										<a href="#"><span>f</span></a>
-										<a href="#"><span>t</span></a>
-										<a href="#"><span>in</span></a>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="popup-footer">
-							<button class="cancel-btn" onclick="closePopup('project1-popup')">Cancel</button>
-						</div>
-					</div>
-				</div>							
-
-				<!-- Popup for Project 2 -->
-				
-				<div class="popup-overlay" id="project2-popup">
-					<div class="popup-content">
-						<div class="popup-header">
-							<h2>ANALYSIS OF FLIPKART E-COMMERCE DATA</h2>
-							<button class="close-btn" onclick="closePopup('project2-popup')">×</button>
-						</div>
-						<div class="popup-body">
-							<div class="carousel-container">
-                    			<div class="carousel-slides">
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data  1">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 2">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0003.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 3">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0004.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 4">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0005.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 5">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0006.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 6">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0007.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 7">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0008.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 8">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Flipkart Sales Report\Flipkart Sales Report Screenshot_page-0009.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 9">
-									</div>
-
-
-								</div>
-								<button class="carousel-btn prev" onclick="changeSlide('project2',-1)">❮</button>
-								<button class="carousel-btn next" onclick="changeSlide('project2',1)">❯</button>
-								<div class="carousel-indicators">
-									<span class="carousel-indicator active" onclick="goToSlide('project2',0)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project2',1)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project2',2)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project2',3)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project2',4)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project2',5)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project2',6)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project2',7)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project2',8)"></span>
-								</div>
-               				</div>
-							<div class="popup-text">
-								<p>In today’s competitive business environment, data-driven decision-making is crucial for success. This project focuses on building an advanced Power BI dashboard to provide insights into key business operations, including orders, products, customers, forecasting, and performance tracking. The dashboard aims to help stakeholders analyze trends, track key performance indicators (KPIs), and make informed business decisions efficiently</p>
-							</div>
-							<ul class="details-list">
-								<li>
-									<span class="label">Client</span>
-									<span></span>
-								</li>
-								<li>
-									<span class="label">Category</span>
-									<span>Data Analytics</span>
-								</li>
-								<li>
-									<span class="label">Date</span>
-									<span>August 03, 2025</span>
-								</li>
-								<li>
-									<span class="label">GitHub Source</span>
-									<a href="https://github.com/MdYeakub-py/ANALYSIS-OF-FLIPKART-E-COMMERCE-DATA.git" class="github-btn" target="_blank">View on GitHub</a>
-								</li>
-								<li>
-									<span class="label">Share</span>
-									<div class="social-links">
-										<a href="#"><span>f</span></a>
-										<a href="#"><span>t</span></a>
-										<a href="#"><span>in</span></a>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="popup-footer">
-							<button class="cancel-btn" onclick="closePopup('project2-popup')">Cancel</button>
-						</div>
-					</div>
-				</div>							
-
-
-
-								<!-- Popup for Project 3 -->
-				
-				<div class="popup-overlay" id="project3-popup">
-					<div class="popup-content">
-						<div class="popup-header">
-							<h2>Swiggy Power BI Dashboard – APM Case Study</h2>
-							<button class="close-btn" onclick="closePopup('project3-popup')">×</button>
-						</div>
-						<div class="popup-body">
-							<div class="carousel-container">
-                    			<div class="carousel-slides">
-									<div class="carousel-slide">
-										<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0001.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data  1">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0002.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 2">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0003.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 3">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0004.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 4">
-									</div>
-									<div class="carousel-slide">
-										<img src="img\project\Swiggy power bi dashboard\Swiggy_Power_BI_Dashboard_page-0005.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Pipeline 5">
-									</div>
-
-
-								</div>
-								<button class="carousel-btn prev" onclick="changeSlide('project3',-1)">❮</button>
-								<button class="carousel-btn next" onclick="changeSlide('project3',1)">❯</button>
-								<div class="carousel-indicators">
-									<span class="carousel-indicator active" onclick="goToSlide('project3',0)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project3',1)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project3',2)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project3',3)"></span>
-									<span class="carousel-indicator" onclick="goToSlide('project3',4)"></span>
-								</div>
-               				</div>
-							<div class="popup-text">
-								<p>Created an interactive Power BI dashboard to analyze Swiggy’s sales, customer behavior, and city performance. Identified top cuisines, high-performing cities, and customer churn trends, helping improve business decisions and forecasting accuracy by 30%.</p>
-							</div>
-							<ul class="details-list">
-								<li>
-									<span class="label">Client</span>
-									<span></span>
-								</li>
-								<li>
-									<span class="label">Category</span>
-									<span>Data Analytics</span>
-								</li>
-								<li>
-									<span class="label">Date</span>
-									<span>August 03, 2025</span>
-								</li>
-								<li>
-									<span class="label">GitHub Source</span>
-									<a href="https://github.com/MdYeakub-py/Swiggy-power-bi-dashboard-project.git" class="github-btn" target="_blank">View on GitHub</a>
-								</li>
-								<li>
-									<span class="label">Share</span>
-									<div class="social-links">
-										<a href="#"><span>f</span></a>
-										<a href="#"><span>t</span></a>
-										<a href="#"><span>in</span></a>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="popup-footer">
-							<button class="cancel-btn" onclick="closePopup('project3-popup')">Cancel</button>
-						</div>
-					</div>
-				</div>							
-
-
-			<!-- /Projects -->
-
-				
+				</div>						
+		        <!-- /Projects -->
+			
 				<!-- TESTIMONIALS -->
 				<div id="testimonials" class="iknow_tm_main_section">
 					<div class="iknow_tm_testimonials">
@@ -1358,7 +1431,8 @@ Built with a clean data model (star schema) and advanced DAX measures to extract
 				<div class="inner">
 					<div class="left">
 						<p>Designed with love &copy; <a href="#"
-								target="_blank">Md Yeakub</a></p>
+							target="_blank">Md Yeakub</a>
+						</p>
 					</div>
 					<div class="right">
 						<!-- <ul>
@@ -1370,17 +1444,16 @@ Built with a clean data model (star schema) and advanced DAX measures to extract
 				</div>
 			</div>
 		</div>
-		<!-- /COPYRIGHT -->
+        <!-- /COPYRIGHT -->
 
-		<!-- MAGIC CURSOR -->
-		<div class="mouse-cursor cursor-outer"></div>
-		<div class="mouse-cursor cursor-inner"></div>
-		<!-- /MAGIC CURSOR -->
+        <!-- MAGIC CURSOR -->
+        <div class="mouse-cursor cursor-outer"></div>
+	    <div class="mouse-cursor cursor-inner"></div>
+	    <!-- /MAGIC CURSOR -->
+    </div>
+    <!-- / WRAPPER ALL -->
 
-	</div>
-	<!-- / WRAPPER ALL -->
-
-	<!-- SCRIPTS -->
+    <!-- SCRIPTS -->
 	<script src="js/jquery.js"></script>
 	<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
 	<script src="js/plugins.js"></script>
@@ -1491,99 +1564,99 @@ Built with a clean data model (star schema) and advanced DAX measures to extract
 
 
 
-let currentSlides = {};
+		let currentSlides = {};
 
-function openPopup(projectId) {
-    const popup = document.getElementById(projectId + '-popup');
-    if (popup) {
-        popup.classList.add('active');
-        document.body.style.overflow = 'hidden';
-        // Initialize carousel for this project
-        currentSlides[projectId] = 0;
-        updateCarousel(projectId);
-    }
-}
+		function openPopup(projectId) {
+			const popup = document.getElementById(projectId + '-popup');
+			if (popup) {
+				popup.classList.add('active');
+				document.body.style.overflow = 'hidden';
+				// Initialize carousel for this project
+				currentSlides[projectId] = 0;
+				updateCarousel(projectId);
+			}
+		}
 
-function closePopup(projectId) {
-    const popup = document.getElementById(projectId + '-popup');
-    if (popup) {
-        popup.classList.remove('active');
-        document.body.style.overflow = 'auto';
-        // Reset carousel for this project
-        currentSlides[projectId] = 0;
-    }
-}
+		function closePopup(projectId) {
+			const popup = document.getElementById(projectId + '-popup');
+			if (popup) {
+				popup.classList.remove('active');
+				document.body.style.overflow = 'auto';
+				// Reset carousel for this project
+				currentSlides[projectId] = 0;
+			}
+		}
 
-function changeSlide(projectId, direction) {
-    if (currentSlides[projectId] === undefined) {
-        currentSlides[projectId] = 0;
-    }
-    
-    const carousel = document.querySelector(`#${projectId}-popup .carousel-slides`);
-    const slides = document.querySelectorAll(`#${projectId}-popup .carousel-slide`);
-    const indicators = document.querySelectorAll(`#${projectId}-popup .carousel-indicator`);
-    
-    if (!carousel || slides.length === 0) return;
-    
-    currentSlides[projectId] += direction;
-    
-    if (currentSlides[projectId] < 0) {
-        currentSlides[projectId] = slides.length - 1;
-    } else if (currentSlides[projectId] >= slides.length) {
-        currentSlides[projectId] = 0;
-    }
-    
-    carousel.style.transform = `translateX(-${currentSlides[projectId] * 100}%)`;
-    
-    // Update indicators
-    indicators.forEach((indicator, index) => {
-        indicator.classList.toggle('active', index === currentSlides[projectId]);
-    });
-}
+		function changeSlide(projectId, direction) {
+			if (currentSlides[projectId] === undefined) {
+				currentSlides[projectId] = 0;
+			}
+			
+			const carousel = document.querySelector(`#${projectId}-popup .carousel-slides`);
+			const slides = document.querySelectorAll(`#${projectId}-popup .carousel-slide`);
+			const indicators = document.querySelectorAll(`#${projectId}-popup .carousel-indicator`);
+			
+			if (!carousel || slides.length === 0) return;
+			
+			currentSlides[projectId] += direction;
+			
+			if (currentSlides[projectId] < 0) {
+				currentSlides[projectId] = slides.length - 1;
+			} else if (currentSlides[projectId] >= slides.length) {
+				currentSlides[projectId] = 0;
+			}
+			
+			carousel.style.transform = `translateX(-${currentSlides[projectId] * 100}%)`;
+			
+			// Update indicators
+			indicators.forEach((indicator, index) => {
+				indicator.classList.toggle('active', index === currentSlides[projectId]);
+			});
+		}
 
-function goToSlide(projectId, slideIndex) {
-    const carousel = document.querySelector(`#${projectId}-popup .carousel-slides`);
-    const indicators = document.querySelectorAll(`#${projectId}-popup .carousel-indicator`);
-    
-    if (!carousel) return;
-    
-    currentSlides[projectId] = slideIndex;
-    carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
-    
-    // Update indicators
-    indicators.forEach((indicator, index) => {
-        indicator.classList.toggle('active', index === slideIndex);
-    });
-}
+		function goToSlide(projectId, slideIndex) {
+			const carousel = document.querySelector(`#${projectId}-popup .carousel-slides`);
+			const indicators = document.querySelectorAll(`#${projectId}-popup .carousel-indicator`);
+			
+			if (!carousel) return;
+			
+			currentSlides[projectId] = slideIndex;
+			carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+			
+			// Update indicators
+			indicators.forEach((indicator, index) => {
+				indicator.classList.toggle('active', index === slideIndex);
+			});
+		}
 
-function updateCarousel(projectId) {
-    const carousel = document.querySelector(`#${projectId}-popup .carousel-slides`);
-    const indicators = document.querySelectorAll(`#${projectId}-popup .carousel-indicator`);
-    
-    if (carousel && currentSlides[projectId] !== undefined) {
-        carousel.style.transform = `translateX(-${currentSlides[projectId] * 100}%)`;
-    }
-    
-    if (indicators.length > 0 && currentSlides[projectId] !== undefined) {
-        indicators.forEach((indicator, index) => {
-            indicator.classList.toggle('active', index === currentSlides[projectId]);
-        });
-    }
-}
+		function updateCarousel(projectId) {
+			const carousel = document.querySelector(`#${projectId}-popup .carousel-slides`);
+			const indicators = document.querySelectorAll(`#${projectId}-popup .carousel-indicator`);
+			
+			if (carousel && currentSlides[projectId] !== undefined) {
+				carousel.style.transform = `translateX(-${currentSlides[projectId] * 100}%)`;
+			}
+			
+			if (indicators.length > 0 && currentSlides[projectId] !== undefined) {
+				indicators.forEach((indicator, index) => {
+					indicator.classList.toggle('active', index === currentSlides[projectId]);
+				});
+			}
+		}
 
 
-function closePopup(projectId) {
-    const popup = document.getElementById(projectId);
-    if (popup) {
-        popup.classList.remove('active');
-        document.body.style.overflow = 'auto';
-        // Reset carousel for this project
-        const projectKey = projectId.replace('-popup', '');
-        if (currentSlides[projectKey] !== undefined) {
-            currentSlides[projectKey] = 0;
-        }
-    }
-}
+		function closePopup(projectId) {
+			const popup = document.getElementById(projectId);
+			if (popup) {
+				popup.classList.remove('active');
+				document.body.style.overflow = 'auto';
+				// Reset carousel for this project
+				const projectKey = projectId.replace('-popup', '');
+				if (currentSlides[projectKey] !== undefined) {
+					currentSlides[projectKey] = 0;
+				}
+			}
+		}
 
 	</script>
 
