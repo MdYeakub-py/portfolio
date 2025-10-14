@@ -347,7 +347,7 @@
             }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 480px) {
              .portfolio-grid {
             display: grid;
             grid-template-columns: minmax(200px, 1fr);
