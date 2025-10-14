@@ -346,3 +346,25 @@
                 margin-bottom: 5px;
             }
         }
+
+        @media (max-width: 768px) {
+             .portfolio-grid {
+            display: grid;
+            grid-template-columns: minmax(200px, 1fr);
+            gap: 30px;
+            width: 400px;
+            }
+            .popup-body {
+                padding: 20px;
+            }
+            
+            .details-list li {
+                flex-direction: column;
+            }
+            
+            .details-list .label {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+        
