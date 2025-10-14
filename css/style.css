@@ -5194,6 +5194,12 @@ input[type=number] {
 	.iknow_tm_fixed_content .iknow_tm_services .service_list ul li{width: 100%;padding-left: 0px;}
 	.iknow_tm_fixed_content .iknow_tm_news .news_list ul{margin: 0px;}
 	.iknow_tm_fixed_content .iknow_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 30px;
+        width: 500px;
+    }
 }
 @media (max-width: 480px){
 	.iknow_tm_modalbox .box_inner{width: 300px;}
@@ -5211,5 +5217,12 @@ input[type=number] {
 	.iknow_tm_news .news_list ul li .details{padding: 10px 0px 0px 0px !important;background-color: transparent;box-shadow: none;}
 	.iknow_tm_modalbox .close .svg{width: 25px;height: 25px;}
 	.iknow_tm_modalbox .close{margin-left: 0px;left: auto;right: 0px;top: -35px;}
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: minmax(200px, 1fr);
+        gap: 30px;
+        width: 500px;
+    }
+
 	
 }

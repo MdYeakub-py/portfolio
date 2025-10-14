@@ -327,10 +327,12 @@
         }
         
         @media (max-width: 768px) {
-            .portfolio-grid {
-                grid-template-columns: 1fr;
+          .portfolio-grid {
+            display: grid;
+            grid-template-columns: minmax(200px, 1fr);
+            gap: 30px;
+            width: 500px;
             }
-            
             .popup-body {
                 padding: 20px;
             }
