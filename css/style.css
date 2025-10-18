@@ -1877,6 +1877,7 @@ body.dark .loader_line:after{
 	background-position: center;
 	background-size: cover;
 	border-radius: 10px;
+	background-size: 100% auto;
 }
 .iknow_tm_portfolio .portfolio_list ul li .list_inner .overlay{
 	position: absolute;
@@ -5221,7 +5222,7 @@ input[type=number] {
         display: grid;
         grid-template-columns: minmax(200px, 1fr);
         gap: 30px;
-        width: 400px;
+        width: 300px;
     }
 
 	

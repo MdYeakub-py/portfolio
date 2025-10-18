@@ -333,38 +333,341 @@
             gap: 30px;
             width: 500px;
             }
+      
+             /* Popup Styles for Tablet */
+            .popup-content {
+                width: 500px;
+                margin: 20px auto;
+            }
+            
+            .popup-header {
+                padding: 20px;
+            }
+            
+            .popup-header h2 {
+                font-size: 22px;
+            }
+            
             .popup-body {
                 padding: 20px;
             }
             
+            .carousel-container {
+                height: 350px;
+            }
+            
+            .carousel-slide img {
+                object-fit: contain;
+            }
+            
+            .popup-text p {
+                font-size: 14px;
+            }
+            
             .details-list li {
-                flex-direction: column;
+                flex-direction: row;
+                align-items: center;
             }
             
             .details-list .label {
-                width: 100%;
-                margin-bottom: 5px;
+                width: 120px;
+                font-size: 14px;
+                margin-bottom: 0;
             }
+            
+            .github-btn {
+                padding: 10px 18px;
+                font-size: 14px;
+            }
+
+
         }
+        
 
         @media (max-width: 480px) {
-             .portfolio-grid {
+            .portfolio-grid {
             display: grid;
-            grid-template-columns: minmax(200px, 1fr);
+            grid-template-columns: minmax(300px, 1fr);
             gap: 30px;
             width: 300px;
             }
+        
+             /* Popup Styles for Small Mobile */
+            .popup-overlay {
+                padding: 10px;
+            }
+            
+            .popup-content {
+                width: 300px;
+                margin: 10px auto;
+                max-height: 90vh;
+            }
+            
+            .popup-header {
+                padding: 15px;
+            }
+            
+            .popup-header h2 {
+                font-size: 18px;
+                line-height: 1.3;
+            }
+            
+            .close-btn {
+                width: 35px;
+                height: 35px;
+                font-size: 20px;
+            }
+            
             .popup-body {
-                padding: 20px;
+                padding: 15px;
+            }
+            
+            .carousel-container {
+                height: 200px;
+                margin-bottom: 15px;
+            }
+            
+            .carousel-slide img {
+                object-fit: contain;
+            }
+            
+            .carousel-btn {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+            }
+            
+            .carousel-btn.prev {
+                left: 5px;
+            }
+            
+            .carousel-btn.next {
+                right: 5px;
+            }
+            
+            .carousel-indicators {
+                gap: 6px;
+                padding: 0 5px;
+            }
+            
+            .carousel-indicator {
+                width: 8px;
+                height: 8px;
+            }
+            
+            .popup-text p {
+                font-size: 13px;
+                line-height: 1.5;
+            }
+            
+            .details-list {
+                margin-bottom: 20px;
             }
             
             .details-list li {
                 flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+                padding: 10px 0;
+                margin-bottom: 10px;
             }
             
             .details-list .label {
                 width: 100%;
-                margin-bottom: 5px;
+                font-size: 13px;
+                margin-bottom: 2px;
+            }
+            
+            .details-list .label + span {
+                width: 100%;
+                font-size: 13px;
+            }
+            
+            .github-btn {
+                padding: 8px 15px;
+                font-size: 13px;
+                width: 100%;
+                text-align: center;
+                display: block;
+            }
+            
+            .social-links {
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+            
+            .social-links a {
+                width: 32px;
+                height: 32px;
+                font-size: 12px;
+            }
+            
+            .popup-footer {
+                padding: 15px;
+            }
+            
+            .cancel-btn {
+                padding: 8px 16px;
+                font-size: 13px;
+                width: 100%;
             }
         }
+
         
+
+        /* css for protfolio section */
+        
+        @media (max-width: 768px) {
+            .gallery_zoom {
+                display: grid;
+                grid-template-columns: minmax(200px, 1fr);
+                gap: 30px;
+                width: 500px;
+            }
+            
+            .gallery_zoom li {
+                background: #162447;
+                border-radius: 10px;
+                overflow: hidden;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                width:100%;
+            }
+            
+            .gallery_zoom li:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            }
+            
+            .list_inner {
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+            
+            .list_inner .image {
+                width: 100%;
+                height: 280px;
+                overflow: hidden;
+                position: relative;
+            }
+            
+            .list_inner .image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.5s ease;
+            }
+            
+            .list_inner:hover .image img {
+                transform: scale(1.1);
+            }
+            
+            .main {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(26, 26, 46, 0.8);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+            
+            .list_inner:hover .overlay {
+                opacity: 1;
+            }
+            
+            .svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 35px;
+                height: 35px;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                z-index: 1;
+            }
+            
+            .list_inner:hover .svg {
+                opacity: 1;
+            }
+            
+            .details {
+                padding: 18px;
+                text-align: center;
+            }
+            
+            .details span {
+                display: block;
+                color: #4cc9f0;
+                font-size: 13px;
+                margin-bottom: 5px;
+                line-height: 1.3;
+            }
+            
+            .details h3 {
+                color: #fff;
+                font-size: 16px;
+                margin: 0;
+                line-height: 1.3;
+            }
+            
+            .iknow_tm_full_link {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 2;
+                text-decoration: none;
+            }
+        }
+
+        /* === PORTFOLIO ITEM - SMALL MOBILE STYLES (480px and below) === */
+        @media (max-width: 480px) {
+            .gallery_zoom {
+                display: grid;
+                grid-template-columns: minmax(300px, 1fr);
+                gap: 30px;
+                width: 300px;
+            }
+            
+            .gallery_zoom li {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+            
+            .list_inner .image {
+                height: 160px;
+            }
+            
+            .details {
+                padding: 15px;
+            }
+            
+            .details span {
+                font-size: 12px;
+                margin-bottom: 4px;
+            }
+            
+            .details h3 {
+                font-size: 15px;
+            }
+            
+            .svg {
+                width: 30px;
+                height: 30px;
+            }
+        }
