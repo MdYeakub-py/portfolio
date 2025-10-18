@@ -329,7 +329,7 @@
         @media (max-width: 768px) {
           .portfolio-grid {
             display: grid;
-            grid-template-columns: minmax(200px, 1fr);
+            grid-template-columns: minmax(300px, 1fr);
             gap: 30px;
             width: 500px;
             }
@@ -387,9 +387,9 @@
         @media (max-width: 480px) {
             .portfolio-grid {
             display: grid;
-            grid-template-columns: minmax(250px, 1fr);
+            grid-template-columns: minmax(200px, 1fr);
             gap: 30px;
-            width: 250px;
+            width: 200px;
             }
         
              /* Popup Styles for Small Mobile */
@@ -520,7 +520,7 @@
         @media (max-width: 768px) {
             .gallery_zoom {
                 display: grid;
-                grid-template-columns: minmax(200px, 1fr);
+                grid-template-columns: minmax(300px, 1fr);
                 gap: 30px;
                 width: 500px;
             }
@@ -639,9 +639,9 @@
         @media (max-width: 480px) {
             .gallery_zoom {
                 display: grid;
-                grid-template-columns: minmax(250px, 1fr);
+                grid-template-columns: minmax(200px, 1fr);
                 gap: 30px;
-                width: 250px;
+                width: 200px;
             }
             
             .gallery_zoom li {
